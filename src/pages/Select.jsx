@@ -12,7 +12,7 @@ const Select = () => {
   return (
     <>
       <h1 className="tareas" colorScheme='green'> Elige tu Avatar</h1>
-      <Grid templateColumns='repeat(5, 1fr)' gap={6} className=" principal ">
+      <Grid templateColumns={{lg:'repeat(5, 1fr)',md:'repeat(2, 1fr)',sm:'repeat(1, 1fr)'}} gap={6} className=" principal ">
 
         {position.map((pos) => {
           return <Item key={pos.id} position={pos} />;

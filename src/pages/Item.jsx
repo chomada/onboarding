@@ -63,7 +63,7 @@ onClick={() => {
         src={position.img}
         alt='avatar'
       />:null}
-      {imagen?<Badge as='button'onClick={() => {
+      {imagen?<Badge className="badge"as='button'onClick={() => {
   setOverlay(<OverlayOne />)
   onOpen()
 }}>Seleccionar</Badge>:null}

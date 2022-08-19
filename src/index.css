@@ -73,7 +73,7 @@ input[type="password"] {
   }
 .items{
   
-  height: 300px;
+  height: 400px;
 }
 .negrita{
   font-size: large;
@@ -113,4 +113,7 @@ input[type="password"] {
   text-align: center;
     align-items: center;
 
+}
+.badge{
+  height: 2rem;
 }
