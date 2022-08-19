@@ -18,8 +18,28 @@ const Login = ()=>{
       password: "123456"
     },
     {
-      username: "user2",
-      password: "pass2"
+      username: "csilva",
+      password: "123456"
+    },
+    {
+      username: "asalinas",
+      password: "123456"
+    },
+    {
+      username: "cfrontera",
+      password: "123456"
+    },
+    {
+      username: "ggomez",
+      password: "123456"
+    },
+    {
+      username: "jvgonzalez",
+      password: "123456"
+    },
+    {
+      username: "tdamico",
+      password: "123456"
     }
   ];
 

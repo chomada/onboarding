@@ -29,11 +29,8 @@ const Item = ({ position }) => {
   const [imagen, setImagen] = useState(false);
 
 const show=()=>{
-  setImagen(true)
-  setTimeout(()=>{
-    setImagen(false)
+  setImagen(!imagen)
   
-  },2000)
 }
 const blur=()=>{
   setImagen(false)
