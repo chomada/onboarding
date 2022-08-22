@@ -45,8 +45,10 @@ const [size, setSize] = useState('full')
 
     <Grid  templateColumns='repeat(1, 1fr)' className="items">
 
-      <Box flex='1'  onClick={show}textAlign='center' as='button' borderRadius='md' bg={imagen?'purple':'purple.200'} variant='outline' px={4} h={8}>
-      <Tag bg={imagen?'purple':'purple.200'} color={imagen?'white':'black'}>{position.position}</Tag>
+      <Box flex='1'  onClick={show}textAlign='center' as='button' borderRadius='md' 
+      
+      bg={imagen?'purple':'purple.200'} variant='outline' px={4} h={50}>
+      <Tag bg={imagen?'purple':'purple.200'} color={imagen?'white':'black'}  >{position.position}</Tag>
      
       </Box>
       {imagen?<Image 
@@ -55,8 +57,10 @@ onClick={() => {
   onOpen()
 }} margin='auto'
       textAlign='center'
-        borderRadius='full'
         boxSize='100%'
+        boxShadow='7px 10px 17px -5px rgba(161,161,161,0.75)'
+        cursor='pointer'
+      
         src={position.img}
         alt='avatar'
       />:null}

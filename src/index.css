@@ -26,7 +26,10 @@ code {
 input[type="text"],
 input[type="password"] {
   height: 25px;
+  margin-bottom: 16px;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 6px;
 }
 
 
@@ -37,11 +40,28 @@ input[type="password"] {
   display: flex;
   justify-content: center;
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1e7ff;
+  color: #333;
+  text-align: center;
+}
 .login-form {
-  background-color: white;
-  padding: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 6px;
+    min-height: 303px;
+    position: absolute;
+    display: flex;
+    top: 15%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .list-container {
@@ -54,15 +74,16 @@ input[type="password"] {
 }
 
 .title {
-  font-size: 25px;
-  margin-bottom: 20px;
+ font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .input-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin: 10px;
+  
 }
 .principal{
   
@@ -73,8 +94,10 @@ input[type="password"] {
   }
 .items{
   
-  height: 400px;
+
+    height: 255px;
 }
+
 .negrita{
   font-size: large;
   font-weight: bold;
@@ -109,11 +132,16 @@ input[type="password"] {
 }
 .submit{
 
-  margin:0;
-  text-align: center;
-    align-items: center;
+ 
+ width: 100%;
+  
 
 }
 .badge{
   height: 2rem;
+  padding: 20px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
