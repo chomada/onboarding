@@ -32,10 +32,6 @@ input[type="password"] {
   border-radius: 6px;
 }
 
-
-
-
-
 .button-container {
   display: flex;
   justify-content: center;
@@ -99,8 +95,9 @@ input[type="password"] {
 }
 
 .negrita{
-  font-size: large;
+  font-size: 25px;
   font-weight: bold;
+  color: #6200ea;
 }
 .tareas{
   font-size: larger;
@@ -108,7 +105,7 @@ input[type="password"] {
   margin:0;
   text-align: center;
     align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 15px;
     margin-top: 2rem;
 }
 .onboarding{
@@ -128,7 +125,7 @@ input[type="password"] {
 
 }
 .marginBot{
-  margin-bottom: 1rem;
+  margin-bottom: 150px;
 }
 .submit{
 
@@ -144,4 +141,40 @@ input[type="password"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.maximus {
+  max-width: 950px;
+  margin: auto;
+}
+
+.homework {
+  font-weight: bold;
+  color: #fff;
+}
+
+.mypanel {
+  padding: 25px;
+  text-align: center;
+}
+.myp {
+  max-width: 1250px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.myback{
+  background-color: rgba(93, 119, 236, 0.3);
+  height: 100%;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+   
+    
 }

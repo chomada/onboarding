@@ -73,14 +73,17 @@ onClick={() => {
 <Modal isOpen={isOpen} size={size}onClose={onClose}>
 {overlay}
         <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Importante</ModalHeader>
+        
+     
+         <ModalContent>
+         <div className="myback">
+          <ModalHeader className="center">Importante</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}mb={6}mt={6}className="modalLargo">
         
           
-          <h2 >Va a comenzar su avatar como <span className="negrita">{' '}{position.position}</span> </h2> 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem magnam vero dolor repellat autem animi fuga quo voluptatibus, iusto, incidunt possimus. Aliquam ducimus voluptas veniam quisquam eius omnis exercitationem.
+          <h2 className="center">Va a comenzar su avatar como <span className="negrita">{' '}{position.position}</span> </h2> 
+          <p className="myp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem magnam vero dolor repellat autem animi fuga quo voluptatibus, iusto, incidunt possimus. Aliquam ducimus voluptas veniam quisquam eius omnis exercitationem.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem magnam vero dolor repellat autem animi fuga quo voluptatibus, iusto, incidunt possimus. Aliquam ducimus voluptas veniam quisquam eius omnis exercitationem.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem magnam vero dolor repellat autem animi fuga quo voluptatibus, iusto, incidunt possimus. Aliquam ducimus voluptas veniam quisquam eius omnis exercitationem.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem magnam vero dolor repellat autem animi fuga quo voluptatibus, iusto, incidunt possimus. Aliquam ducimus voluptas veniam quisquam eius omnis exercitationem.
@@ -89,20 +92,23 @@ onClick={() => {
 margin='auto'
       textAlign='center'
         borderRadius='full'
-        boxSize='20%'
+        boxSize='12%'
         src={position.img}
         alt='avatar'
       />
           </ModalBody>
 
           <ModalFooter>
-            <Button colorScheme='blue' mr={3} onClick={tareas}>
+            <Button colorScheme='blue' mr={1} onClick={tareas}>
               Si
             </Button>
             <Button variant='ghost' onClick={onClose}>No</Button>
           </ModalFooter>
+          </div>
         </ModalContent>
+        
       </Modal>
+      
       </>
 
   )

@@ -78,6 +78,7 @@ const realizarTarea5=()=>{
   return (
  
 <>
+<div className="maximus">
 <h1 className="tareas"colorScheme='purple'> Tareas <CircularProgress value={valor} color='purple.400'>
   <CircularProgressLabel>{valor}%</CircularProgressLabel>
 </CircularProgress></h1>
@@ -85,92 +86,102 @@ const realizarTarea5=()=>{
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada1==='Realizada'?'purple':'purple.200'} color='black' px={4} h={8}>
-      <Kbd>Tarea 1</Kbd>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada1==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <div className="homework">Tarea 1</div>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
+    <div className="mypanel">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.<Button onClick={realizarTarea1}variant='ghost' mr={3} >
+      commodo consequat.<br/><Button onClick={realizarTarea1}variant='ghost' mr={8} >
               {realizada1}
             </Button>
+            </div>
     </AccordionPanel>
   </AccordionItem>
 
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada2==='Realizada'?'purple':'purple.200'} color='black' px={4} h={8}>
-      <Kbd>Tarea 2</Kbd>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada2==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <div className="homework">Tarea 2</div>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
+    <div className="mypanel">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.<Button onClick={realizarTarea2}variant='ghost' mr={3} >
+      commodo consequat.<br/><Button onClick={realizarTarea2}variant='ghost' mr={3} >
               {realizada2}
             </Button>
+            </div>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada3==='Realizada'?'purple':'purple.200'} color='black' px={4} h={8}>
-      <Kbd>Tarea 3</Kbd>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada3==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <div className="homework">Tarea 3</div>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
+    <div className="mypanel">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.<Button onClick={realizarTarea3}variant='ghost' mr={3} >
+      commodo consequat.<br/><Button onClick={realizarTarea3}variant='ghost' mr={3} >
               {realizada3}
             </Button>
+            </div>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada4==='Realizada'?'purple':'purple.200'} color='black' px={4} h={8}>
-      <Kbd>Tarea 4</Kbd>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada4==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <div className="homework">Tarea 4</div>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
+    <div className="mypanel">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.<Button onClick={realizarTarea4}variant='ghost' mr={3} >
+      commodo consequat.<br/><Button onClick={realizarTarea4}variant='ghost' mr={3} >
               {realizada4}
             </Button>
+            </div>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada5==='Realizada'?'purple':'purple.200'} color='black' px={4} h={8}>
-      <Kbd>Tarea 5</Kbd>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada5==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <div className="homework">Tarea 5</div>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
+      <div className="mypanel">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. <Button onClick={realizarTarea5}variant='ghost' mr={3} >
+      commodo consequat. <br/><Button onClick={realizarTarea5}variant='ghost' mr={3} >
               {realizada5}
             </Button>
+            </div>
            
     </AccordionPanel>
   </AccordionItem>
@@ -202,6 +213,10 @@ const realizarTarea5=()=>{
   <Button onClick={onOpen}colorScheme='gray'><Kbd>Desbloquear Avatar</Kbd></Button>
 </span>
 </div>:null}
+</div>
+<div class="footer">
+  <p>Onboarding Interbanking 2022</p>
+</div>
 </>
   );
 };
