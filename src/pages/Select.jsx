@@ -20,7 +20,7 @@ const Select = () => {
         })}
       </Grid>
       <div class="footer">
-  <p>Onboarding Interbanking 2022</p>
+  <p>Onboarding 2022</p>
 </div>
     </>
   )

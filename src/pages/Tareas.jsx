@@ -78,7 +78,7 @@ const realizarTarea5=()=>{
   return (
  
 <>
-<div className="maximus">
+<div className="maximus ">
 <h1 className="tareas"colorScheme='purple'> Tareas <CircularProgress value={valor} color='purple.400'>
   <CircularProgressLabel>{valor}%</CircularProgressLabel>
 </CircularProgress></h1>
@@ -86,7 +86,7 @@ const realizarTarea5=()=>{
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada1==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada1==='Realizada'?'purple':'purple.200'} color='black' px={4} h={10}>
       <div className="homework">Tarea 1</div>
         </Box>
         <AccordionIcon />
@@ -107,7 +107,7 @@ const realizarTarea5=()=>{
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada2==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada2==='Realizada'?'purple':'purple.200'} color='black' px={4} h={10}>
       <div className="homework">Tarea 2</div>
         </Box>
         <AccordionIcon />
@@ -127,7 +127,7 @@ const realizarTarea5=()=>{
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada3==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada3==='Realizada'?'purple':'purple.200'} color='black' px={4} h={10}>
       <div className="homework">Tarea 3</div>
         </Box>
         <AccordionIcon />
@@ -147,7 +147,7 @@ const realizarTarea5=()=>{
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada4==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada4==='Realizada'?'purple':'purple.200'} color='black' px={4} h={10}>
       <div className="homework">Tarea 4</div>
         </Box>
         <AccordionIcon />
@@ -167,7 +167,7 @@ const realizarTarea5=()=>{
   <AccordionItem>
     <h2>
       <AccordionButton>
-      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada5==='Realizada'?'purple':'purple.200'} color='black' px={4} h={20}>
+      <Box flex='1' textAlign='center' as='button' borderRadius='md' bg={realizada5==='Realizada'?'purple':'purple.200'} color='black' px={4} h={10}>
       <div className="homework">Tarea 5</div>
         </Box>
         <AccordionIcon />
@@ -215,7 +215,7 @@ const realizarTarea5=()=>{
 </div>:null}
 </div>
 <div class="footer">
-  <p>Onboarding Interbanking 2022</p>
+  <p>Onboarding 2022</p>
 </div>
 </>
   );

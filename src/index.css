@@ -42,8 +42,8 @@ input[type="password"] {
   bottom: 0;
   padding: 20px;
   width: 100%;
-  background-color: #f1e7ff;
-  color: #333;
+  background-color: #9f7aea;
+  color: white;
   text-align: center;
 }
 .login-form {
@@ -125,7 +125,7 @@ input[type="password"] {
 
 }
 .marginBot{
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 .submit{
 
@@ -177,4 +177,7 @@ input[type="password"] {
     width: 100%;
    
     
+}
+*, *::before, ::after {
+  border-color: #9f7aea !important;
 }
